@@ -1,0 +1,61 @@
+< AMM >
+1. file not found error when the pp_image's location is not available. Then, reasign the image to be "newuser.png".
+[try, except]
+2. lift the setings window when the settings button is pressed again.
+[window.liff()]
+3. the selection of radiobutton can't be seen well cuz of the font's light color. So, I change the dot's color to be bg_color.
+[selectcolor=self.settings.bg_color]
+
+< WYH >
+1. added new element in theme and named it frame_bg_color
+2. [db_names] in second_frame is dynamic now
+3. Maintopic in second_frame will change according to db
+4. new file => new_schedule.py
+
+< AMM >
+1. timer
+2. added *.jpeg format
+
+< WYH >
+1. new file => add.py
+2. updated new_schedule.py to work with add.py
+3. removed Maintopic table from the databases. there will be only one table in databases now.
+we gonna use file name as Maintopic 
+
+< AMM >
+1. timer restart button >> delete existing timer and create new one(wyh fixed the bug)
+2. updated newuser image
+3. button pictures for white themes
+4. in switching themes, button images are changed accordingly to white theme or not.
+5. functioning timer class, both for study interval and break interval.
+
+< WYH >
+1. fixed right_click and left_click functions in second_frame
+2. new file => edit.py ( fully work now )
+3. made add.py, edit.py and new_schedule.py UI a bit more user friendly
+4. new => run.py, restart.json
+5. fix easy_json.py to be more flexible
+6. edited settings_gui.py and settings.py to work well with easy_json.py
+
+7. added a new button in first frame
+8. new file => sites.json // this is a list of sites we want to block
+9. new file => sites.py
+
+< AMM > 
+1. updated timer and alarm
+
+< WYH >
+1. new file => block.py
+2. connected timer.py, second_frame.py with block.py
+3. added sec in run.py because i wanted to see how long is the program running
+4. modified run.py
+
+5. change names
+6. adjusted run.py
+7. display themes like a table in settings_gui
+8. added completed or not in edit.py
+
+< WYH >
+1. debugged howtouse.py, edit.py and first_frame.py
+2. added delete button in edit.py
+3. fixed add.py and new_schedule.py

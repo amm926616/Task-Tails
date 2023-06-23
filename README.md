@@ -1,1 +1,3 @@
-# Task-Tails
+# TaskTails
+
+Smart Strict Tool for your study
